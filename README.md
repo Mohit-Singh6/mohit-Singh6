@@ -36,54 +36,44 @@
 </div>
 
 ---
-
 ### 💻 Featured Projects
 
-All projects are engineered end-to-end, tested against real-world constraints, and deployed live with dedicated subdomains:
+<br/>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">Healix</h3>
-      <p align="center"><b>Autonomous AI Incident Triage Engine</b></p>
-      <p align="center">
-        <a href="https://healix.mohits.site"><b>🌐 Live Demo</b></a> • 
-        <a href="https://github.com/mohit-Singh6/healix"><b>💻 Code</b></a>
-      </p>
-      <ul>
-        <li>Autonomous SRE pipeline correlating production logs with Git commits via LangGraph.js & Gemini.</li>
-        <li>Spike mitigation with Redis & BullMQ; deduplicates error streams using pgvector embeddings.</li>
-        <li>PostgresSaver checkpoints for human-in-the-loop approvals feeding a Next.js SSE dashboard.</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">MeetNow</h3>
-      <p align="center"><b>Low-Latency WebRTC Video Platform</b></p>
-      <p align="center">
-        <a href="https://meetnow.mohits.site"><b>🌐 Live Demo</b></a> • 
-        <a href="https://github.com/mohit-Singh6/meetnow"><b>💻 Code</b></a>
-      </p>
-      <ul>
-        <li>Sub-200ms peer-to-peer audio, video, and screen sharing using WebRTC & Socket.io handshakes.</li>
-        <li>Protected room wrappers, graceful reconnection logic, and synthetic media fallback tracks.</li>
-        <li>Real-time chat persistence integrated with MongoDB.</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">Scout</h3>
-      <p align="center"><b>Telemetry & API Monitoring Platform</b></p>
-      <p align="center">
-        <a href="https://scout.mohits.site"><b>🌐 Live Demo</b></a> • 
-        <a href="https://github.com/mohit-Singh6/scout"><b>💻 Code</b></a>
-      </p>
-      <ul>
-        <li>Full-stack uptime and health monitor with status detection (UP, DEGRADED, DOWN, TIMEOUT).</li>
-        <li>Automated background cron ping worker logging telemetry for custom 24h/7d/30d analytics.</li>
-        <li>Groq-powered automated incident summaries secured with NextAuth.js GitHub OAuth.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+#### 01 / [Healix](https://healix.mohits.site) — AI Incident Triage Engine
+> Autonomous incident remediation copilot that bridges production monitoring with source control.
+
+[![Live Demo](https://img.shields.io/badge/Demo-healix.mohits.site-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://healix.mohits.site)
+[![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohit-Singh6/healix)
+
+`Next.js` • `LangGraph.js` • `Gemini API` • `pgvector` • `Redis` • `BullMQ`
+
+Correlates live application crashes with recent Git commits, deduplicates high-frequency alert spikes through semantic clustering, and generates automated fix pull requests with interactive human verification checkpoints.
+
+---
+
+#### 02 / [MeetNow](https://meetnow.mohits.site) — Low-Latency Video Conferencing
+> Peer-to-peer web communication platform focused on real-time speed and stability.
+
+[![Live Demo](https://img.shields.io/badge/Demo-meetnow.mohits.site-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://meetnow.mohits.site)
+[![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohit-Singh6/meetnow)
+
+`WebRTC` • `Socket.io` • `React.js` • `Node.js` • `Express.js` • `MongoDB`
+
+Delivers sub-200ms peer-to-peer audio, video, and screen streaming with automated SDP handshakes, synthetic black-frame fallback tracks during sudden connection drops, and live room chat persistence.
+
+---
+
+#### 03 / [Scout](https://scout.mohits.site) — API Telemetry & Uptime Monitor
+> Continuous health tracking system featuring dynamic time-series analytics.
+
+[![Live Demo](https://img.shields.io/badge/Demo-scout.mohits.site-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://scout.mohits.site)
+[![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohit-Singh6/scout)
+
+`Next.js 15` • `PostgreSQL` • `Prisma ORM` • `Groq LLM` • `Recharts` • `NextAuth.js`
+
+Monitors endpoint availability across multi-state health checks using background ping workers, logs long-term latency trends across customizable timeframes, and generates AI post-incident summaries.
+
 
 ---
 

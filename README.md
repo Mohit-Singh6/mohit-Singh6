@@ -95,7 +95,7 @@ All projects are engineered end-to-end, tested against real-world constraints, a
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohit-Singh6&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="55%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohit-singh6&theme=tokyo-night&hide_border=true" alt="Mohit's GitHub Activity Graph" width="90%" />
 </div>
 
 ---
